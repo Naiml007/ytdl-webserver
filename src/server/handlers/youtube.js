@@ -1,5 +1,6 @@
 const path = require('path');
 const fs = require('fs');
+const ffmpeg = require('fluent-ffmpeg')
 const youtubeDl = require('@microlink/youtube-dl');
 
 function exists(filename, cb) {
